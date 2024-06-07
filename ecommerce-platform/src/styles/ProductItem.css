@@ -1,0 +1,32 @@
+.product-item {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    width: 200px;
+  }
+  
+  .product-item img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .product-item h3 {
+    font-size: 1.2em;
+    margin: 10px 0;
+  }
+  
+  .product-item p {
+    font-size: 1em;
+    color: #555;
+  }
+  
+  .product-item a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .product-item a:hover {
+    text-decoration: underline;
+  }
+  
