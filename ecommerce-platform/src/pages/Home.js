@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import ProductList from '../components/ProductList';
 import '../styles/Home.css';
+import '../bannerBG.jpg';
 
 // Mock data for featured products
 const mockProducts = [
@@ -20,8 +21,7 @@ const Home = () => {
   return (
     <div className="home">
       <div className="banner">
-        <h1>Welcome to Allawi's shop</h1>
-        <p>The world's best products</p>
+        <h1>We Make it Possible.</h1>
       </div>
 
       <div className="featured-products">
