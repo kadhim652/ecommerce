@@ -1,0 +1,47 @@
+.about {
+    padding: 0%;
+    width: 100%;
+  }
+  
+  .about h1 {
+    font-size: 2.0em;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+    background-color: whitesmoke;
+    text-align: left;
+    text-indent: 100px;
+  }
+  
+  .about-content {
+    display: flex; /* Use flexbox to create a two-column layout */
+  }
+
+  .about .left-column, .about .right-column {
+    flex: 1; /* Each column takes up half of the space */
+    padding: 20px;
+  }
+  
+  .about .left-column {
+    display: flex;
+    align-items: center; /* Center the logo vertically */
+    justify-content: center; /* Center the logo horizontally */
+  }
+
+  .about .left-column img {
+    max-width: 100%;
+    height: auto; /* Ensure the logo scales correctly */
+  }
+
+  .about .right-column {
+    text-align: left; /* Align text to the left */
+  }
+
+  .about .right-column p {
+    padding-left: 50px;
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin-bottom: 10px;
+    text-align: left;
+  }
+  
