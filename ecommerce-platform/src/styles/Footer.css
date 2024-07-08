@@ -1,10 +1,28 @@
 .footer {
-    background-color: #8081c8;
-    color: #fff;
-    padding: 20px 0;
+    background-color: white;
+    color: #26619C;
+    padding: 0px 0;
     text-align: center;
   }
   
+  .footer .contact-info {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 15px;
+    background-color: #26619C;
+    color: white;
+}
+.footer .contact-item {
+    display: flex;
+    align-items: center;
+    margin: 0 15px;
+}
+.footer .contact-item img {
+    height: 100px;
+    margin-right: 10px;
+}
+
+
   .footer-content {
     display: flex;
     justify-content: space-around;
