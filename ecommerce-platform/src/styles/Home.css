@@ -10,6 +10,7 @@
   background-image: url('../bannerBG.jpg'); /* Path to your background image */
   background-size: cover; /* Ensures the image covers the entire banner area */
   background-position: center;
+  background-attachment: fixed;
   width: 100%;
 }
 
@@ -25,6 +26,24 @@
   color: goldenrod;
 }
 
+.contact-button {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #26619C;
+  color: white;
+  text-decoration: none;
+  font-size: 1em;
+  border-radius: 10px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.contact-button:hover {
+  background-color: transparent;
+  color: #26619C;
+  border: 2px solid #26619C;
+}
+
 .featured-products {
   margin: 0;
 }
@@ -34,33 +53,105 @@
   margin-bottom: 0px;
 }
 
-.customer-reviews {
-  padding: 50px 0;
+.services-summary {
+  padding: 50px 20px;
   background-color: #f2f2f2;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr); /* Three equal columns */
-  gap: 20px; /* Spacing between columns */
-  text-align: center; /* Center align content */
+}
+
+.services-summary h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.services-cards {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.service-card {
+  flex: 1;
+  margin: 10px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+}
+
+.service-card img {
+  width: 100px;
+  height: 100px;
+  margin-right: 20px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.service-description {
+  text-align: left;
+}
+
+.service-card h3 {
+  font-size: 1.5em;
+  color: #26619C;
+  margin-bottom: 10px;
+}
+
+.service-card p {
+  font-size: 1.1em;
+  color: #666;
+}
+
+.services-button {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #26619C;
+  color: white;
+  text-decoration: none;
+  font-size: 1em;
+  border-radius: 10px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.services-button:hover {
+  background-color: transparent;
+  color: #26619C;
+  border: 2px solid #26619C;
+}
+
+.customer-reviews {
+  padding: 50px 20px;
+  background-color: #f2f2f2;
 }
 
 .customer-reviews h2 {
   font-size: 2em;
   margin-bottom: 20px;
-  grid-column: 1 / -1; /* Span across all columns */
+}
+
+.reviews-container {
+  display: flex;
+  justify-content: space-around;
 }
 
 .review {
-  background-color: white; /* Optional styling */
+  flex: 1;
+  margin: 0 10px;
   padding: 20px;
-  text-align: left;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .review p {
-  font-size: 1.2em;
-  line-height: 1.6;
+  font-size: 1.1em;
+  color: #666;
+  margin-bottom: 10px;
 }
 
 .stars {
-  color: #ffc107; /* Yellow color for stars */
-  font-size: 1.5em; /* Adjust size as needed */
+  font-size: 1.2em;
+  color: goldenrod;
 }

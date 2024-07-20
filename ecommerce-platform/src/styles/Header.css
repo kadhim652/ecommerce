@@ -1,45 +1,46 @@
 .header {
-  background-color: white;
-  padding: 10px;
+  background-color: white; /* White background */
+  padding: 10px 20px;
   display: flex;
   align-items: center;
   justify-content: space-between;
   width: 100%;
   box-sizing: border-box;
+  border-bottom: 1px solid #ddd; /* Light border for separation */
 }
 
 .header .logo img {
-  height: 100px; /* Adjust as needed */
+  height: 100px; /* Adjust logo size */
 }
 
 .header nav {
   flex-grow: 1;
-  display: flex;
-  justify-content: flex-end;
 }
 
-.nav-main, .nav-secondary {
+.nav-main {
   list-style: none;
   display: flex;
   margin: 0;
   padding: 0;
+  justify-content: center; /* Center the navigation items */
 }
 
-.nav-main {
-  margin-bottom: 10px; /* Add space between the two ul elements */
+.nav-main li {
+  margin: 0 20px; /* Space between menu items */
 }
 
-.nav-main li, .nav-secondary li {
-  margin: 0 10px;
-}
-
-.nav-main li a, .nav-secondary li a {
-  color: black;
+.nav-main li a {
+  color: #333; /* Dark gray text color for contrast */
   text-decoration: none; /* Remove underline */
-  transition: color 0.3s ease; /* Smooth color transition */
+  font-size: 1em; /* Font size */
+  font-weight: 500; /* Slightly bolder text */
+  transition: color 0.3s ease, box-shadow 0.3s ease; /* Smooth transitions */
+  padding: 8px 16px; /* Padding for a button-like effect */
+  border-radius: 4px; /* Rounded corners for a modern look */
 }
 
-.nav-main li a:hover, .nav-secondary li a:hover {
-  color: #26619C; /* Change color on hover */
-  text-decoration: none; /* Ensure no underline on hover */
+.nav-main li a:hover {
+  color: #26619C; /* Dark blue text on hover */
+  background-color: rgba(38, 97, 156, 0.1); /* Subtle background color change on hover */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
 }
