@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/ecommerce/static/css/main.62f2eee6.css",
+    "main.js": "/ecommerce/static/js/main.867fc259.js",
+    "static/js/453.168a8403.chunk.js": "/ecommerce/static/js/453.168a8403.chunk.js",
+    "static/media/logo.PNG": "/ecommerce/static/media/logo.0e4249db631af94c8e4d.PNG",
+    "static/media/bathroom.jpg": "/ecommerce/static/media/bathroom.b29f55b8d0bc146f0446.jpg",
+    "static/media/kitchen.jpg": "/ecommerce/static/media/kitchen.fd8b3f24b5b54c491753.jpg",
+    "static/media/basement.jpg": "/ecommerce/static/media/basement.4905efdc7a07d72d8ebd.jpg",
+    "static/media/bannerBG.jpg": "/ecommerce/static/media/bannerBG.6991746f6aa0ab71c475.jpg",
+    "static/media/Antu_call-start.svg": "/ecommerce/static/media/Antu_call-start.e94dc50aa58c6b161a6e92c541413452.svg",
+    "static/media/Email_withcircle.svg": "/ecommerce/static/media/Email_withcircle.e8942c27e54d81fcd7f92f270e30f4d1.svg",
+    "index.html": "/ecommerce/index.html",
+    "main.62f2eee6.css.map": "/ecommerce/static/css/main.62f2eee6.css.map",
+    "main.867fc259.js.map": "/ecommerce/static/js/main.867fc259.js.map",
+    "453.168a8403.chunk.js.map": "/ecommerce/static/js/453.168a8403.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.62f2eee6.css",
+    "static/js/main.867fc259.js"
+  ]
+}
