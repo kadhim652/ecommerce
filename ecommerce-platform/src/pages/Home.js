@@ -1,6 +1,6 @@
-import React, { useState, useEffect } from 'react';
+//import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import ProductList from '../components/ProductList';
+
 import '../styles/Home.css';
 import '../bannerBG.jpg';
 import bathroomImg from '../images/bathroom.jpg';
@@ -8,19 +8,10 @@ import kitchenImg from '../images/kitchen.jpg';
 import basementImg from '../images/basement.jpg';
 
 // Mock data for featured products
-const mockProducts = [
-  { id: 1, name: 'Product 1', description: 'Description 1', price: 10, imageUrl: 'path/to/image1.jpg' },
-  { id: 2, name: 'Product 2', description: 'Description 2', price: 20, imageUrl: 'path/to/image2.jpg' },
-  { id: 3, name: 'Product 3', description: 'Description 3', price: 30, imageUrl: 'path/to/image3.jpg' },
-];
+
 
 const Home = () => {
-  const [featuredProducts, setFeaturedProducts] = useState([]);
-
-  useEffect(() => {
-    // Simulate fetching data by setting mock data
-    setFeaturedProducts(mockProducts);
-  }, []);
+  
 
   return (
     <div className="home">
@@ -28,11 +19,7 @@ const Home = () => {
         <h1>We Make it Possible.</h1>
         <Link to="/contact" className="contact-button">Contact Us</Link>
       </div>
-
-      <div className="featured-products">
-        <h2>Featured Products</h2>
-        <ProductList products={featuredProducts} />
-      </div>
+      
 
       <div className="services-summary">
         <h2>Our Services</h2>
